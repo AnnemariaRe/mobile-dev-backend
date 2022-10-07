@@ -47,3 +47,19 @@ git bisect good/bad
 git filter-branch --index-filter 'git rm --cached .env --ignore-unmatch' --prune-empty --tag-name-filter cat -- --all
 ```
 ![](/docs/img/6.png)
+
+
+----
+### 7 task
+```
+git filter-branch --commit-filter '
+    if [ "$GIT_AUTHOR_EMAIL" = "bakasaru@list.ru" ];
+    then
+            GIT_AUTHOR_NAME="AnnemariaRe";
+            GIT_AUTHOR_EMAIL="annemariarepenko@gmail.com";
+            git commit-tree "$@";
+    else
+            git commit-tree "$@";
+    fi' HEAD
+```
+![](/docs/img/7.png)
