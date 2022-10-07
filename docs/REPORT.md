@@ -81,3 +81,11 @@ git merge feature
 ```
 git status
 ```
+
+
+----
+### 10 task
+```
+git gc
+```
+![](/docs/img/10.png)
