@@ -39,3 +39,11 @@ npm run test
 git bisect good/bad
 ```
 ![](/docs/img/5.png)
+
+
+----
+### 6 task
+```
+git filter-branch --index-filter 'git rm --cached .env --ignore-unmatch' --prune-empty --tag-name-filter cat -- --all
+```
+![](/docs/img/6.png)
