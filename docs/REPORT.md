@@ -89,3 +89,12 @@ git status
 git gc
 ```
 ![](/docs/img/10.png)
+
+
+----
+### 11 task
+```
+git add /docs
+git add /img
+git commit -m "message"
+```
