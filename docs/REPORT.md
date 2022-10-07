@@ -74,3 +74,10 @@ git merge feature
 ```
 ![](/docs/img/8_1.png)
 ![](/docs/img/8_2.png)
+
+
+----
+### 9 task
+```
+git status
+```
