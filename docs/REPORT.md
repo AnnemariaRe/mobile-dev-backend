@@ -22,3 +22,10 @@ git branch old-master 18eabfefb2ba8d1f5a87817ac36edb3b86e1335c
 ```
 ![](/docs/img/3.png)
 
+
+----
+### 4 task
+```
+git blame prisma/seed.ts
+```
+![](/docs/img/4.png)
