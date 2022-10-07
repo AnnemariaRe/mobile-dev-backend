@@ -63,3 +63,14 @@ git filter-branch --commit-filter '
     fi' HEAD
 ```
 ![](/docs/img/7.png)
+
+----
+### 8 task
+```
+git config --global rerere.enabled true
+git rerere diff
+git merge feature
+
+```
+![](/docs/img/8_1.png)
+![](/docs/img/8_2.png)
